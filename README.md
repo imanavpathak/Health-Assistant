@@ -37,43 +37,4 @@ Follow these steps to set up and run the Health Assistant locally:
 git clone https://github.com/imanavpathak/Health-Assistant.git
 cd Health-Assistant
 
----
-
-2. Install Dependencies
-    bash
-    Copy
-    Edit
-    pip install -r requirements.txt
----
-3. Run the App
-bash
-Copy
-Edit
-streamlit run app.py
-Visit http://localhost:8501 in your browser to use the app.
-
-⚙️ Optional Steps (Recommended for Development)
-🧪 Use a Virtual Environment
-bash
-Copy
-Edit
-python -m venv venv
-source venv/bin/activate   # On Windows: venv\Scripts\activate
-This helps keep dependencies isolated.
-
-🧾 Store API Keys with .env (If customizing)
-env
-Copy
-Edit
-OPENAI_API_KEY=your_key_here
-NVIDIA_API_KEY=your_key_here
-Use python-dotenv to load them securely in your code.
-
-🔬 Try Out Prompts in the Notebook
-Launch Jupyter:
-
-bash
-Copy
-Edit
-jupyter notebook
-Open langchain_notebook.ipynb to test or tweak prompt logic.
+<h3>hey i am back</h3>
