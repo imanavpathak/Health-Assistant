@@ -37,11 +37,14 @@ Follow these steps to set up and run the Health Assistant locally:
 git clone https://github.com/imanavpathak/Health-Assistant.git
 cd Health-Assistant
 
+---
+
 2. Install Dependencies
     bash
     Copy
     Edit
     pip install -r requirements.txt
+---
 3. Run the App
 bash
 Copy
