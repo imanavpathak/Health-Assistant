@@ -37,23 +37,40 @@ Follow these steps to set up and run the Health Assistant locally:
 git clone https://github.com/imanavpathak/Health-Assistant.git
 cd Health-Assistant
 
-### 2. Create a Virtual Environment (Optional but Recommended)
-'''bash
-
-python -m venv venv
-source venv/bin/activate  # On Windows use `venv\Scripts\activate`
-3. Install Dependencies
-bash
-Copy
-Edit
-pip install -r requirements.txt
-▶️ Run the App
-Launch the Streamlit app:
-
+2. Install Dependencies
+    bash
+    Copy
+    Edit
+    pip install -r requirements.txt
+3. Run the App
 bash
 Copy
 Edit
 streamlit run app.py
-Your browser should automatically open the app at http://localhost:8501.
+Visit http://localhost:8501 in your browser to use the app.
 
+⚙️ Optional Steps (Recommended for Development)
+🧪 Use a Virtual Environment
+bash
+Copy
+Edit
+python -m venv venv
+source venv/bin/activate   # On Windows: venv\Scripts\activate
+This helps keep dependencies isolated.
 
+🧾 Store API Keys with .env (If customizing)
+env
+Copy
+Edit
+OPENAI_API_KEY=your_key_here
+NVIDIA_API_KEY=your_key_here
+Use python-dotenv to load them securely in your code.
+
+🔬 Try Out Prompts in the Notebook
+Launch Jupyter:
+
+bash
+Copy
+Edit
+jupyter notebook
+Open langchain_notebook.ipynb to test or tweak prompt logic.
