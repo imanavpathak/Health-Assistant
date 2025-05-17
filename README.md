@@ -31,17 +31,25 @@ Welcome to the **Health Assistant** — a smart, AI-powered medical chatbot buil
 
 Follow these steps to set up and run the Health Assistant locally:
 
-### 1. Clone the Repository
 
-```bash
-git clone https://github.com/imanavpathak/Health-Assistant.git
-cd Health-Assistant
+1. Clone the repo:
+    ```bash
+    git clone https://github.com/imanavpathak/Health-Assistant.git
+    cd Health-Assistant
+    ```
 
-2. Install Dependencies
-pip install -r requirements.txt
+2. Create and activate a virtual environment (recommended):
+    ```bash
+    python3 -m venv venv
+    source venv/bin/activate   # On Windows: venv\Scripts\activate
+    ```
 
-3. Run the App 
-streamlit run app.py
-Visit http://localhost:8501 in your browser to use the app.
+3. Install dependencies:
+    ```bash
+    pip install -r requirements.txt
+    ```
 
-
+4. Run the assistant:
+    ```bash
+    python main.py
+    ```
