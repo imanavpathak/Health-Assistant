@@ -38,14 +38,10 @@ git clone https://github.com/imanavpathak/Health-Assistant.git
 cd Health-Assistant
 
 2. Install Dependencies
-
-
-   pip install -r requirements.txt
-
+pip install -r requirements.txt
 
 3. Run the App 
-
-   streamlit run app.py
-   Visit http://localhost:8501 in your browser to use the app.
+streamlit run app.py
+Visit http://localhost:8501 in your browser to use the app.
 
 
